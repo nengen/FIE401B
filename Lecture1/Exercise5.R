@@ -1,0 +1,10 @@
+require(foreign);
+myData <- read.dta("http://fmwww.bc.edu/ec-p/data/wooldridge/affairs.dta");
+kids <- factor(myData$kids, labels = c("no", "yes"));
+marriageLabel <- c("Very Unhappy", "Unhappy", "Average", "Happy", "Very Happy");
+marriageRating <- factor(myData$ratemarr, labels = marriageLabel);
+table(kids);
+prop.table(table(marriageRating));
+table(kids, marriageRating);
+pie(table(kids,marriageRating));
+barplot(table(kids, marriageRating));
