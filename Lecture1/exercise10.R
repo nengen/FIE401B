@@ -1,9 +1,9 @@
 #If (condition){command for execution} else{command for execution}
 #For (loopvariable){command for execution}
 #Function name<-function(independent variable names){
-  Dependent variable name<-f(independent variable name)
-  return(Dependent variable name)
-}
+#  Dependent variable name<-f(independent variable name)
+#  return(Dependent variable name)
+#}
 
 x <- 9;
   
