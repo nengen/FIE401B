@@ -1,8 +1,8 @@
 #Exercise7
 
 x <- seq(0,10,by = 1);
-fx <- dbinom(x,10,0.5);
-plot(fx);
+fx <- dbinom(x,10,0.2);
+plot(x,fx, type = "h");
 y <- pbinom(x,10,0.5);
 plot(y);
 
