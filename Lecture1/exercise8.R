@@ -1,6 +1,6 @@
 #Exercise8
-#random numbers rexp or rnorm
-#make the random numbers replicable: set.seed()
+#rnorm creates random numbers
+#set.seed makes the random numbers stay constant, changing value in set.seed() changes random numbers
 
 rnorm(10, mean = 0, sd = 1);
 set.seed(100);
